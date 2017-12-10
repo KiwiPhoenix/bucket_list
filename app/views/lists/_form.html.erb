@@ -1,0 +1,11 @@
+<div id='list-form'>
+  <%= form_for @list do |f| %>
+    <%= f.label :destination %>
+    <%= f.text_field :destination %>
+
+    <%= f.label :description %>
+    <%= f.text_field :description %>
+
+    <%= f.submit %>
+  <% end %>
+</div>
